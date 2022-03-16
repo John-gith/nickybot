@@ -4,7 +4,7 @@ var config = require('./configTwit');
 var T = new Twit(config);
 var CronJob = require('cron').CronJob;
 
-const myAccount = '1501683294026481669'; //Ur account to avoid replying to yourself
+const myAccount = '1446220334353506311'; //Ur account to avoid replying to yourself
 var statusTweet = `@trush_io is a new banking protocol that will solve modern-day issues , visit their socials and check them out!`; //Add your tweet here
 var isRunning = false;
 var hashtags = ['#web3'];
