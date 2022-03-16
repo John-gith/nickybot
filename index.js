@@ -9,7 +9,7 @@ var statusTweet = `@trush_io is a new banking protocol that will solve modern-da
 var isRunning = false;
 var hashtags = ['#web3'];
 
-var job = new CronJob('*/10 * * * *', function () {
+var job = new CronJob('*/15 * * * *', function () {
     if (isRunning == false) {
         makeTweet();
         isRunning = true;
